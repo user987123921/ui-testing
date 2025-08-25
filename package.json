@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e 'console.log(\"ok\")'",
+    "start": "node src/cli.js",
+    "visual-ai-test": "node src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user987123921/ui-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/user987123921/ui-testing/issues"
+  },
+  "homepage": "https://github.com/user987123921/ui-testing#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.1",
+    "yargs": "^18.0.0"
+  }
+}
